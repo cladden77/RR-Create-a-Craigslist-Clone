@@ -8,12 +8,12 @@ import Gallery from './Components/Gallery'
 import Searchbar from './Components/Searchbar'
 import Sidebar from './Components/Sidebar'
 
-function App(){
+const App = () => {
   return (
     <div>
-      <Gallery />
+      <h1>nickslist</h1>
       <div className="App">
-      <Searchbar />
+        <Searchbar />
         <Directory />
         <Sidebar />
         <Gallery postings={postings} />
